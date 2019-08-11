@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical"
+    >
+
+    <CheckBox
+        android:id="@+id/checkReadLocalJS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read JS from local files"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        />
+
+    <TextView android:text="Banner(html) hash:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/txtBannerHtmlHash"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="60dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="14dp"
+            />
+
+        <Button android:id="@+id/btnClearBannerHtml"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#00000000"
+            android:text="X"
+            />
+
+        <Button android:id="@+id/btnScanBannerHtml"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/qrcode"
+            />
+
+    </RelativeLayout>
+
+    <TextView android:text="Banner(video) hash:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/txtBannerVideoHash"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="60dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="14dp"
+            />
+
+        <Button android:id="@+id/btnClearBannerVideo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#00000000"
+            android:text="X"
+            />
+
+        <Button android:id="@+id/btnScanBannerVideo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/qrcode"
+            />
+
+    </RelativeLayout>
+
+    <TextView android:text="Interstitial(html) hash:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/txtInterHtmlHash"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="60dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="14dp"
+            />
+
+        <Button android:id="@+id/btnClearInterHtml"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#00000000"
+            android:text="X"
+            />
+
+        <Button android:id="@+id/btnScanInterHtml"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/qrcode"
+            />
+
+    </RelativeLayout>
+
+    <TextView android:text="Interstitial(video) hash:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/txtInterVideoHash"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="60dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="14dp"
+            />
+
+        <Button android:id="@+id/btnClearInterVideo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#00000000"
+            android:text="X"
+            />
+
+        <Button android:id="@+id/btnScanInterVideo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/qrcode"
+            />
+
+    </RelativeLayout>
+
+    <TextView android:text="Native hash:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/txtNativeHash"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="60dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="14dp"
+            />
+
+        <Button android:id="@+id/btnClearNative"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#00000000"
+            android:text="X"
+            />
+
+        <Button android:id="@+id/btnScanNative"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/qrcode"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

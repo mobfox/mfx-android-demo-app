@@ -61,80 +61,10 @@
 
     </LinearLayout>
 
-    <LinearLayout android:id="@+id/linTabs"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:orientation="horizontal"
-        >
-
-        <RelativeLayout android:id="@+id/btnTabMobFox"
-            android:layout_width="0dp"
-            android:layout_weight="1.0"
-            android:layout_height="40dp"
-            android:background="#00000000"
-            >
-
-            <ImageView android:id="@+id/imgMobFox"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_centerInParent="true"
-                android:background="@drawable/mobfox_logo"
-                />
-
-        </RelativeLayout>
-
-        <View android:layout_width="1dp" android:layout_height="40dp" android:background="#ffcfcfcf" />
-
-        <RelativeLayout android:id="@+id/btnTabMoPub"
-            android:layout_width="0dp"
-            android:layout_weight="1.0"
-            android:layout_height="40dp"
-            android:background="#00000000"
-            >
-
-            <ImageView android:id="@+id/imgMoPub"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_centerInParent="true"
-                android:background="@drawable/mopub_logo"
-                />
-
-        </RelativeLayout>
-
-        <View android:layout_width="1dp" android:layout_height="40dp" android:background="#ffcfcfcf" />
-
-        <RelativeLayout android:id="@+id/btnTabAdMob"
-            android:layout_width="0dp"
-            android:layout_weight="1.0"
-            android:layout_height="40dp"
-            android:background="#00000000"
-            >
-
-            <ImageView android:id="@+id/imgAdMob"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_centerInParent="true"
-                android:background="@drawable/admob_logo"
-                />
-
-        </RelativeLayout>
-
-    </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_above="@+id/linTabs"
-        android:background="#ffcfcfcf"
-        />
-
     <LinearLayout android:id="@+id/linBottomButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/linTabs"
+        android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"

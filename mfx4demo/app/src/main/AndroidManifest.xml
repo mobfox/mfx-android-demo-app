@@ -46,10 +46,6 @@
             android:hardwareAccelerated="true"
             />
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8111915318550857~9804223329"/>
-
     </application>
 
 </manifest>

@@ -9,7 +9,7 @@ android {
         versionName "1.0"
 
         //applicationId "com.mobfox.mfx4demo"
-        applicationId "sdk.mobfox.com.appcore"
+        applicationId "com.mobfox.mfxsdkcore.MFXTester"
     }
     buildTypes {
         release {
